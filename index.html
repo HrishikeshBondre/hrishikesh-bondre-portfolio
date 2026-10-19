@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b0c0a">
+  <meta name="description" content="Hrishikesh Bondre — filmmaker, photographer and visual creator.">
+  <title>Hrishikesh Bondre — Visual Storyteller</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="grain"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top site-nav">
+    <div class="container">
+      <a class="navbar-brand brand" href="index.html#home">HB<span>.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+        aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation"><span
+          class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <div class="navbar-nav ms-auto align-items-lg-center gap-lg-4">
+          <a class="nav-link" href="#work">Selected work</a><a class="nav-link" href="#about">About</a><a
+            class="nav-link" href="#services">What I do</a><a class="nav-link contact-nav" href="#contact">Let's talk
+            ↗</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        <div class="hero-topline reveal"><span class="eyebrow"><i class="status-dot"></i> VISUAL STORYTELLER</span>
+          <div class="hero-availability"><span class="eyebrow">INDIA · OPEN TO CREATIVE PROJECTS</span><span
+              class="hero-social-icons" aria-label="Social profiles"><a href="https://www.instagram.com/hrishibondre/"
+                target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram"><svg
+                  viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="3.5" y="3.5" width="17" height="17" rx="5" />
+                  <circle cx="12" cy="12" r="4" />
+                  <circle cx="17.7" cy="6.5" r=".8" class="icon-fill" />
+                </svg></a><a href="https://www.youtube.com/@hrishibondre" target="_blank" rel="noopener noreferrer"
+                aria-label="YouTube" title="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="2.5" y="5" width="19" height="14" rx="4" />
+                  <path d="m10 9 5 3-5 3z" class="icon-fill" />
+                </svg></a></span></div>
+        </div>
+        <h1 class="hero-title reveal">Making moments<br><span>mean something.</span></h1>
+        <div class="hero-bottom reveal">
+          <p>Photography, filmmaking and visual creativity —<br class="d-none d-sm-block"> built around stories worth
+            remembering.</p><a class="round-link" href="#work" aria-label="Explore work">↓</a>
+        </div>
+        <div class="hero-image-wrap reveal"><img id="heroImage" class="hero-image"
+            src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=2200&q=90"
+            alt="Dramatic mountain ridgelines in cinematic light">
+          <div class="hero-image-overlay"></div>
+          <div class="hero-image-caption"><span>LOOK CLOSER.</span><span>FEEL EVERYTHING.</span></div>
+          <div class="hero-image-index">HB / VISUAL JOURNAL</div>
+        </div>
+        <div class="hero-meta"><span>FILMMAKING</span><i></i><span>PHOTOGRAPHY</span><i></i><span>CREATIVE WORK</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-padding" id="work">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div><span class="eyebrow">01 / THE PORTFOLIO</span>
+            <h2>Selected <span>work.</span></h2>
+          </div>
+          <p class="section-intro">Four creative worlds.<br>Stories inside every frame.</p>
+        </div>
+        <div class="category-grid" id="categoryGrid"></div>
+        <div class="category-detail" id="categoryDetail" hidden>
+          <div class="detail-heading">
+            <div><span class="eyebrow" id="categoryEyebrow">CATEGORY / 01</span>
+              <h3 id="categoryTitle">Projects</h3>
+            </div><button class="close-category" id="closeCategory" aria-label="Close category">Close ×</button>
+          </div>
+          <p class="category-description" id="categoryDescription"></p>
+          <div class="row g-4" id="projectGrid"></div>
+        </div>
+        <p class="gallery-note">SELECT A CATEGORY TO EXPLORE THE STORIES INSIDE.</p>
+      </div>
+    </section>
+
+    <section class="statement-section">
+      <div class="container"><span class="eyebrow reveal">A NOTE ON THE PROCESS</span>
+        <h2 class="statement reveal">Not just what the camera sees.<br><span>What the moment feels like.</span></h2>
+        <div class="statement-orbit" aria-hidden="true">
+          <span>OBSERVE</span><i>·</i><span>FEEL</span><i>·</i><span>CREATE</span><i>·</i></div>
+      </div>
+    </section>
+
+    <section class="section-padding about-section" id="about">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-5 reveal">
+            <div class="about-image-wrap"><img
+                src="assets/Hrishi_IMG.jpg"
+  alt="Hrishikesh Bondre — Filmmaker and Photographer"
+  class="about-image"
+                alt="Creative landscape placeholder" class="about-image"><span class="image-index">A CREATIVE POINT OF
+                VIEW / 01</span></div>
+          </div>
+          <div class="col-lg-7 reveal"><span class="eyebrow">02 / BEHIND THE FRAME</span>
+            <h2 class="about-title">Hi, I'm<br><span>Hrishikesh Bondre.</span></h2>
+            <p class="about-copy">I'm a visual creator drawn to the emotion behind a frame, the details people overlook
+              and the stories that deserve to be told with intention.</p>
+            <p class="about-copy">My creative interests span photography, filmmaking, video editing, content creation
+              and digital marketing. I enjoy bringing ideas to life through thoughtful visuals and a cinematic approach.
+            </p>
+            <p class="experience-line"><span>05 YEARS</span> of learning, creating and finding my visual voice.</p><a
+              href="#contact" class="text-link">Have a story in mind? Let's connect ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="process-strip" aria-label="Observe, feel, create">
+      <div class="process-track" aria-hidden="true">
+        <div class="process-words"><span>OBSERVE</span><i>·</i><span>FEEL</span><i>·</i><span>CREATE</span></div>
+        <div class="process-words"><span>OBSERVE</span><i>·</i><span>FEEL</span><i>·</i><span>CREATE</span></div>
+      </div>
+    </section>
+
+    <section class="section-padding services-section" id="services">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div><span class="eyebrow">03 / THE TOOLKIT</span>
+            <h2>What I <span>do.</span></h2>
+          </div>
+          <p class="section-intro">Creative thinking, from the first idea to the final frame.</p>
+        </div>
+        <div class="services-list">
+          <button class="service-row reveal" type="button" data-service="film"><span
+              class="service-number">01</span><span class="service-main"><span class="service-title">Filmmaking &
+                cinematography</span><span class="service-summary">Framing, movement and atmosphere shaped around a
+                story.</span></span><span class="service-arrow">↗</span></button>
+          <button class="service-row reveal" type="button" data-service="photo"><span
+              class="service-number">02</span><span class="service-main"><span
+                class="service-title">Photography</span><span class="service-summary">Photo series, travel, festivals
+                and moments worth keeping.</span></span><span class="service-arrow">↗</span></button>
+          <button class="service-row reveal" type="button" data-service="content"><span
+              class="service-number">03</span><span class="service-main"><span class="service-title">Content
+                creation</span><span class="service-summary">Personal stories, travel films, visual diaries and creator
+                content.</span></span><span class="service-arrow">↗</span></button>
+          <button class="service-row reveal" type="button" data-service="marketing"><span
+              class="service-number">04</span><span class="service-main"><span class="service-title">Digital
+                marketing</span><span class="service-summary">Creative social content and visual communication for
+                brands.</span></span><span class="service-arrow">↗</span></button>
+        </div>
+        <div class="service-detail-panel" id="serviceDetailPanel" hidden aria-live="polite">
+          <div class="service-detail-top"><span class="eyebrow" id="serviceDetailEyebrow">THE PRACTICE</span><button
+              type="button" id="closeServiceDetail" class="close-category">Close ×</button></div>
+          <h3 id="serviceDetailTitle"></h3>
+          <p id="serviceDetailText"></p><a href="#work" id="servicePortfolioLink" class="text-link">Explore this
+            category portfolio ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="social-section">
+      <div class="container social-inner reveal">
+        <div><span class="eyebrow">MORE FROM MY WORLD</span>
+          <h2>Follow the <span>journey.</span></h2>
+        </div>
+        <div class="social-links"><a href="https://www.instagram.com/hrishibondre/" target="_blank"
+            rel="noopener noreferrer">Instagram <span>↗</span></a><a href="https://www.youtube.com/@hrishibondre"
+            target="_blank" rel="noopener noreferrer">YouTube <span>↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="section-padding contact-section" id="contact">
+      <div class="container"><span class="eyebrow reveal">04 / START A CONVERSATION</span>
+        <h2 class="contact-title reveal">Have a story<br>to <span>tell?</span></h2>
+        <div class="row g-5 mt-2">
+          <div class="col-lg-5 reveal">
+            <p class="contact-copy">Have a project, a creative idea or something worth capturing? Tell me about it.
+              Let's see what we can create together.</p><a class="email-link"
+              href="mailto:hrishibondre45@gmail.com">hrishibondre45@gmail.com ↗</a><a class="whatsapp-link"
+              href="https://wa.me/919359548015" target="_blank" rel="noopener noreferrer"><span
+                class="whatsapp-icon">↗</span> Chat on WhatsApp <span class="wa-number">+91 93595 48015</span></a>
+          </div>
+          <div class="col-lg-7 reveal">
+            <form id="contactForm" class="contact-form">
+              <div class="mb-3"><label for="name" class="form-label">YOUR NAME</label><input type="text" id="name"
+                  name="name" class="form-control" placeholder="How should I call you?" required></div>
+              <div class="mb-3"><label for="email" class="form-label">YOUR EMAIL</label><input type="email" id="email"
+                  name="email" class="form-control" placeholder="you@example.com" required></div>
+              <div class="mb-4"><label for="message" class="form-label">TELL ME ABOUT YOUR PROJECT</label><textarea
+                  id="message" name="message" rows="4" class="form-control" placeholder="A little about your idea..."
+                  required></textarea></div><button type="submit" class="submit-btn">Prepare an email
+                <span>↗</span></button>
+              <p class="form-note">This opens your email app with a drafted message. It does not store submissions.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner"><a class="brand footer-brand" href="index.html#home">HB<span>.</span></a>
+      <p>Made with intention. © <span id="currentYear"></span> Hrishikesh Bondre.</p><a href="#home"
+        class="back-top">BACK TO TOP ↑</a>
+    </div>
+  </footer>
+
+  <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content project-modal">
+        <div class="modal-header"><span class="eyebrow">PROJECT / VISUAL JOURNAL</span><button type="button"
+            class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button></div>
+        <div class="modal-body" id="modalBody"></div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
